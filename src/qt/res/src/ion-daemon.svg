@@ -103,18 +103,18 @@
             <dc:title>CEVAP</dc:title>
           </cc:Agent>
         </dc:contributor>
-        <dc:source>https://raw.githubusercontent.com/cevap/ion/master/src/qt/res/src/ion.svg</dc:source>
+        <dc:source>https://raw.githubusercontent.com/ioncoincore/ion/master/src/qt/res/src/ion.svg</dc:source>
         <dc:language>English</dc:language>
         <dc:coverage>Ion main network, daemon</dc:coverage>
         <dc:identifier>IonMainDaemon</dc:identifier>
         <dc:rights>
           <cc:Agent>
-            <dc:title>https://raw.githubusercontent.com/cevap/ion/master/COPYING</dc:title>
+            <dc:title>https://raw.githubusercontent.com/ioncoincore/ion/master/COPYING</dc:title>
           </cc:Agent>
         </dc:rights>
-        <dc:relation>https://raw.githubusercontent.com/cevap/ion/master/src/qt/res/src/ion.svg</dc:relation>
+        <dc:relation>https://raw.githubusercontent.com/ioncoincore/ion/master/src/qt/res/src/ion.svg</dc:relation>
         <cc:license
-           rdf:resource="https://raw.githubusercontent.com/cevap/ion/master/COPYING" />
+           rdf:resource="https://raw.githubusercontent.com/ioncoincore/ion/master/COPYING" />
       </cc:Work>
     </rdf:RDF>
   </metadata>

@@ -12,8 +12,8 @@ When a "Transaction Lock" occurs the hash of the related transaction is broadcas
 * `zmqpubhashtxlock`: publishes the transaction hash when locked via SwiftX
 
 This mechanism has been integrated into Bitcore-Node-ION which allows for notification to be broadcast through Insight API in one of two ways:
-* WebSocket: [https://github.com/cevap/insight-api-ion#web-socket-api](https://github.com/cevap/insight-api-ion#web-socket-api) 
-* API: [https://github.com/cevap/insight-api-ion#swifttx-transactions](https://github.com/cevap/insight-api-ion#swifttx-transactions) 
+* WebSocket: [https://github.com/ioncoincore/insight-api-ion#web-socket-api](https://github.com/ioncoincore/insight-api-ion#web-socket-api) 
+* API: [https://github.com/ioncoincore/insight-api-ion#swifttx-transactions](https://github.com/ioncoincore/insight-api-ion#swifttx-transactions) 
 
 ####Command line option
 

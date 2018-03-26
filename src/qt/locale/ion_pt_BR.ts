@@ -1591,9 +1591,9 @@ Favor verificar o endereço e tente novamente.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/cevap/cevap-translations</source>
+https://www.transifex.com/ioncoincore/ioncoincore-translations</source>
         <translation>Linguagem não encontrada ou tradução incompleta? Ajude contribuido com traduções aqui:
-https://www.transifex.com/cevap/cevap-translations</translation>
+https://www.transifex.com/ioncoincore/ioncoincore-translations</translation>
     </message>
     <message>
         <source>Connect to the ION network through a SOCKS5 proxy.</source>

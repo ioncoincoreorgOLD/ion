@@ -1,13 +1,13 @@
 🗺️Ion Core 👛 3.0.2 CE ©️ - 👒 RELEASE 👒  is now available from:
 
-  <https://github.com/cevap/ion/releases>
+  <https://github.com/ioncoincore/ion/releases>
 
 This is a new minor-revision version release, including various bug fixes and
 performance improvements, as well as updated translations.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/cevap/ion/issues>
+  <https://github.com/ioncoincore/ion/issues>
 
 Recommended Update
 ==============
@@ -243,9 +243,9 @@ There will be a lot of warnings printed during the build of the image. These can
 
 Getting and building the inputs
 --------------------------------------
-At this point you have two options, you can either use the automated script (found in https://github.com/cevap/ion/blob/master/contrib/gitian-build.sh, only works in Debian/Ubuntu) or you could manually do everything by following this guide. If you are using the automated script, then run it with the --setup command. Afterwards, run it with the --build command (example: contrib/gitian-build.sh -b signer 3.0.2). Otherwise ignore this.
+At this point you have two options, you can either use the automated script (found in https://github.com/ioncoincore/ion/blob/master/contrib/gitian-build.sh, only works in Debian/Ubuntu) or you could manually do everything by following this guide. If you are using the automated script, then run it with the --setup command. Afterwards, run it with the --build command (example: contrib/gitian-build.sh -b signer 3.0.2). Otherwise ignore this.
 
-Follow the instructions in https://github.com/cevap/ion/blob/master/doc/release-process.md in the bitcoin repository under 'Fetch and create inputs' to install sources which require manual intervention. Also optionally follow the next step: 'Seed the Gitian sources cache and offline git repositories' which will fetch the remaining files required for building offline.
+Follow the instructions in https://github.com/ioncoincore/ion/blob/master/doc/release-process.md in the bitcoin repository under 'Fetch and create inputs' to install sources which require manual intervention. Also optionally follow the next step: 'Seed the Gitian sources cache and offline git repositories' which will fetch the remaining files required for building offline.
 
 _**Note**: please use our links here, I left cevap as I do not want to remove it later_
 
@@ -293,9 +293,9 @@ Gist gitian build scripts
 **Note**: Please change SIGNER to your key and version to desired version, in current release it is version 3.0.2, in future releases gist will be updated.
 
 If you use scripts, after wget has downloaded the script, run `sed -i 's/49464B32BA6683BA/YOURGPGKEY/g''  and replace `YOURGPGKEY` with your LONG Key ID. The same can be done with version.
- - Linux only: [build offline](https://gist.github.com/cevap/9d7ef39be185cc07c3d0a9b33da2fba5)
- - Windows only: [build offline](https://gist.github.com/cevap/5d6ac38f6e8530d45ab31499bc3a62ff)
- - MacOS only (without HighSierra)[build offline](https://gist.github.com/cevap/a5a90607da3a9b058b8c0aea20fdd75a)
+ - Linux only: [build offline](https://gist.github.com/ioncoincore/9d7ef39be185cc07c3d0a9b33da2fba5)
+ - Windows only: [build offline](https://gist.github.com/ioncoincore/5d6ac38f6e8530d45ab31499bc3a62ff)
+ - MacOS only (without HighSierra)[build offline](https://gist.github.com/ioncoincore/a5a90607da3a9b058b8c0aea20fdd75a)
 
 Setup **signer** and **version**/branch
 -------------------------------------------------
@@ -321,9 +321,9 @@ cd ..
 # Fetch and create inputs: (first time, or when dependency versions change)
 cd ./gitian-builder
 mkdir -p inputs
-wget -P inputs https://github.com/cevap/osslsigncode/releases/download/v1.7.1/osslsigncode-Backports-to-1.7.1.patch
-wget -P inputs -O inputs/osslsigncode-1.7.1.tar.gz https://github.com/cevap/osslsigncode/archive/v1.7.1.tar.gz
-wget -P inputs https://github.com/cevap/MacOSX-SDKs/releases/download/MacOSX10.11.sdk-trusty/MacOSX10.11.sdk.tar.gz
+wget -P inputs https://github.com/ioncoincore/osslsigncode/releases/download/v1.7.1/osslsigncode-Backports-to-1.7.1.patch
+wget -P inputs -O inputs/osslsigncode-1.7.1.tar.gz https://github.com/ioncoincore/osslsigncode/archive/v1.7.1.tar.gz
+wget -P inputs https://github.com/ioncoincore/MacOSX-SDKs/releases/download/MacOSX10.11.sdk-trusty/MacOSX10.11.sdk.tar.gz
 cd ..
 
 # prebuild ion dependencies
